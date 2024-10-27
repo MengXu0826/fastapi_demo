@@ -2,8 +2,6 @@
 # @Time : 2024/10/23
 # @Author : xm2022
 # @desc : 配置文件
-import os
-from enum import Enum
 from pathlib import Path
 from pydantic import AnyHttpUrl
 from pydantic import BaseSettings

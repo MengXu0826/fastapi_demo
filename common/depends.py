@@ -4,7 +4,7 @@
 # @desc : 依赖项
 from typing import Annotated
 
-from fastapi import Depends, HTTPException, status
+from fastapi import Depends
 from sqlalchemy.orm import Session
 from schemas.page import PageSchema
 

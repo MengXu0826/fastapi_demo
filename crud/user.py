@@ -7,10 +7,9 @@ from typing import Any
 
 from sqlalchemy import select, update
 from sqlalchemy.orm import Session
-from sqlalchemy.sql import text
 
 from crud.base import CRUDBase
-from models import User, Role
+from models import User
 from schemas.user import UserCreate, UserUpdate, UserOut
 from schemas.page import PageSchema
 
